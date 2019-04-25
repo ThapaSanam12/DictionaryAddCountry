@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Dictionary</string>
+
+    <string-array name="countries">
+        <item>Nepal</item>
+        <item>USA</item>
+        <item>Canada</item>
+        <item>UK</item>
+        <item>Spain</item>
+        <item>Korea</item>
+    </string-array>
+</resources>
