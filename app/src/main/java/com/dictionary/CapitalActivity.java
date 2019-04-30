@@ -7,7 +7,7 @@ import android.widget.Toast;
 
 public class CapitalActivity extends AppCompatActivity {
 
-        TextView tvcapital;
+       private TextView tvcapital;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,13 +16,13 @@ public class CapitalActivity extends AppCompatActivity {
 
         tvcapital = findViewById ( R.id.tvcapital );
 
-        Bundle bundle = getIntent ().getExtras ();
+        Bundle bundle = getIntent ().getExtras();
 
 
         if(bundle!=null){
             String meaning = bundle.getString ( "meaning" );
 
-            tvcapital.setText ( meaning );
+            tvcapital.setText(meaning);
         }
 //        else {
 //            Toast.makeText ( this,
